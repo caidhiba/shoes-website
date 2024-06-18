@@ -4,6 +4,7 @@ body{
     padding: 0;
 }
 
+/* nav styling */
 nav{
     background-color: black;
     color: white;
@@ -53,6 +54,93 @@ nav{
     color: lightgray;
     font-weight: 400;
 }
+
+/* slider styling */
+
+.slider{
+    background-image: url("img/background1.avif");
+    /* clip-path: polygon(0 1%, 100% 48%, 100% 100%, 0% 100%); */
+
+}
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+}
+.slideritem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sliderBg{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: yellow;
+    position: absolute;
+}
+.sliderTitle{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    z-index: 1;
+}
+.slideritem img{
+    width: 40%;
+    z-index: 1;
+}
+.sliderPrice{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: center;
+    z-index: 1;
+    /* border: 1px solid gray; */
+}
+.buyBtn{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    /* border: 1px solid gray; */
+}
+.buyBtn:hover{
+    color: white;
+    background-color: black;
+}
+.slideritem:nth-child(1) .sliderBg{
+    background-color: aquamarine;
+}
+.slideritem:nth-child(2) .sliderBg{
+    background-color: yellow;
+}
+.slideritem:nth-child(3) .sliderBg{
+    background-color: plum;
+}
+.slideritem:nth-child(4) .sliderBg{
+    background-color: coral;
+}
+.slideritem:nth-child(5) .sliderBg{
+    background-color: fuchsia;
+}
+
 
 
 
