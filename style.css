@@ -42,3 +42,19 @@ nav{
     color: bisque;
     font-weight: 700;
 }
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuItem{
+    margin-right: 50px;
+    cursor: pointer;
+    color: lightgray;
+    font-weight: 400;
+}
+
+
+
+
+
